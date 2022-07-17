@@ -9,3 +9,4 @@ while (newIem != ""):
          list.append(newIem)
 
 print(list)
+print("Total items: ", list.count())
