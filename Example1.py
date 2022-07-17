@@ -21,7 +21,7 @@ def split(x, y):
     return result
 
 #function for validating the input of a number
-def enterNumber(label):
+def enterNumber(label)
     res = False
     number = 0
 
