@@ -21,7 +21,7 @@ def split(x, y):
     return result
 
 #function for validating the input of a number
-def enterNumber(label)
+def enterNumber(label):
     res = False
     number = 0
 
@@ -40,6 +40,3 @@ print("\nAdd result is ", add(number1, number2))
 print("Substract result is ", substract(number1, number2))
 print("Multiply result is ", multiply(number1, number2))
 print("Split result is ", split(number1, number2))
-
-#hola, este codigo es una mierda
-#estas lineas deben ser borradas
