@@ -21,14 +21,16 @@ def split(x, y):
     return result
 
 #function for validating the input of a number
-def enterNumber(label)
+def enterNumber(label):
     res = False
     number = 0
 
     while (res == False):
         number = input(label)
         res = number.isnumeric()
-        print("Incorrect format, try again...")
+
+        if (res == False):
+            print("Incorrect format, try again...")
 
     return number
 
