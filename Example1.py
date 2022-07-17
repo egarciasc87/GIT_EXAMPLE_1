@@ -8,8 +8,19 @@ def add(x, y):
     result = int(x) + int(y)
     return result
 
-print("Kello world...")
-number1 = input("Enter number 1:")
-number2 = input("Enter number 2:")
-print("Add result is ", add(number1, number2))
+def enterNumber(label):
+    res = False
+    number = 0
+
+    while (res == False):
+        number = input(label)
+        res = number.isnumeric()
+        print("Incorrect format, try again...")
+
+    return number
+
+print("Hello world...")
+number1 = enterNumber("Enter number 1:")
+number2 = enterNumber("Enter number 2:")
+print("\nAdd result is ", add(number1, number2))
 print("Substract result is ", substract(number1, number2))
